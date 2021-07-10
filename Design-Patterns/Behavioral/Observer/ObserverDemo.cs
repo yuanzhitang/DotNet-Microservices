@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Design_Patterns.Behavioral.Observer
 {
-	public class ObserverDemo
+	public class ObserverDemo: PatternDemoBase
 	{
-		public static void Run()
-		{
-			Console.WriteLine("Observer Pattern");
+		public override string PatternName => "Observer Pattern";
 
+		protected override void RunImpl()
+		{
 			// Configure Observer pattern
 			ConcreteSubject subject = new ConcreteSubject();
 
@@ -22,8 +22,6 @@ namespace Design_Patterns.Behavioral.Observer
 			// Change subject and notify observers
 			subject.SubjectState = "ABC";
 			subject.Notify();
-			// Wait for user
-			Console.ReadKey();
 		}
-    }
+	}
 }

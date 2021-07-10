@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Design_Patterns.Behavioral.Observer;
+using System;
 
 namespace Design_Patterns
 {
@@ -6,7 +7,10 @@ namespace Design_Patterns
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello DP!");
+			Console.WriteLine("Hello Design-Patterns!");
+
+			var observerDemo = new ObserverDemo();
+			observerDemo.Run();
 
 			Console.ReadLine();
 		}

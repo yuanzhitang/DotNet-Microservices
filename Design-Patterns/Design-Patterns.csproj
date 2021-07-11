@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <Folder Include="Creational\" />
-    <Folder Include="Structural\" />
   </ItemGroup>
 
 </Project>

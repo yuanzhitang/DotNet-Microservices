@@ -8,6 +8,10 @@ namespace Design_Patterns.Behavioral.TemplateMethod
 {
 	public class TemplateMethodDemo : PatternDemoBase
 	{
+		/*
+		 * 
+		 * The Template Method design pattern defines the skeleton of an algorithm in an operation, deferring some steps to subclasses. This pattern lets subclasses redefine certain steps of an algorithm without changing the algorithm‘s structure.
+		 * */
 		public override string PatternName => "Template Pattern";
 
 		protected override void RunImpl()

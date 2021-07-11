@@ -1,5 +1,6 @@
 ﻿using Design_Patterns.Behavioral.Observer;
 using Design_Patterns.Behavioral.TemplateMethod;
+using Design_Patterns.Structural.Decorator;
 using System;
 
 namespace Design_Patterns
@@ -15,6 +16,9 @@ namespace Design_Patterns
 
 			var templatedMethodDemo = new TemplateMethodDemo();
 			templatedMethodDemo.Run();
+
+			var decoratorDemo = new DecoratorDemo();
+			decoratorDemo.Run();
 
 			Console.ReadLine();
 		}

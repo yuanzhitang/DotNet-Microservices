@@ -22,6 +22,15 @@ namespace Design_Patterns.Behavioral.Observer
 			// Change subject and notify observers
 			subject.SubjectState = "ABC";
 			subject.Notify();
+
+
+			NewsPublisher publisher = new BusinessNewsPublisher();
+			publisher.Attach(new SMSSubscriber());
+			publisher.Attach(new EmailSubscriber());
+
+			publisher.AddNews($"News1 {DateTime.Now.ToString()}");
+
+			publisher.Notify();
 		}
 	}
 }

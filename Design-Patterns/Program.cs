@@ -1,4 +1,5 @@
 ﻿using Design_Patterns.Behavioral.Observer;
+using Design_Patterns.Behavioral.TemplateMethod;
 using System;
 
 namespace Design_Patterns
@@ -11,6 +12,9 @@ namespace Design_Patterns
 
 			var observerDemo = new ObserverDemo();
 			observerDemo.Run();
+
+			var templatedMethodDemo = new TemplateMethodDemo();
+			templatedMethodDemo.Run();
 
 			Console.ReadLine();
 		}

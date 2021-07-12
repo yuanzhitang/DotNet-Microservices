@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace Design_Patterns.Behavioral.Observer
 {
-	public class EmailSubscriber:Subscriber
+	public class EmailSubscriber : Subscriber
 	{
-
+		public override void Update(NewsPublisher publisher)
+		{
+			Console.WriteLine(publisher.GetLatestNews());
+		}
 	}
 }

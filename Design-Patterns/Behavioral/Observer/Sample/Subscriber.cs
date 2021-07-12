@@ -8,9 +8,6 @@ namespace Design_Patterns.Behavioral.Observer
 {
 	public abstract class Subscriber
 	{
-		public void Update(NewsPublisher publisher)
-		{
-			Console.WriteLine(publisher.GetLatestNews());
-		}
+		public abstract void Update(NewsPublisher publisher);
 	}
 }

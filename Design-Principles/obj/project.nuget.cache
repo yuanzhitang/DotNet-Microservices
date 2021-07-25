@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DglKkGpi3U9VfUmL9rYCzy/paBCUKvnrg4Hp3ffOyMP0IrWTewBl5cl39ku8KktIM0RJ4vlXAZsgEQ3Qc/qW0Q==",
+  "success": true,
+  "projectFilePath": "C:\\MichaelCoding\\DotNet-Microservices\\Design-Principles\\Design-Principles.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TangYM\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.5\\microsoft.netcore.app.host.win-x64.5.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

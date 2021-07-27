@@ -29,12 +29,12 @@ namespace Design_Principles.Open_Closed_Principle.BadSample
 
 		private void DrawSquare(Shape shape)
 		{
-			//throw new NotImplementedException();
+			Console.WriteLine("Draw Square");
 		}
 
 		private void DrawCircle(Shape shape)
 		{
-			//throw new NotImplementedException();
+			Console.WriteLine("Draw Circle");
 		}
 	}
 }

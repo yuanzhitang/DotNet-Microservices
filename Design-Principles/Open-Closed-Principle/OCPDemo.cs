@@ -1,4 +1,5 @@
 ﻿using Design_Principles.Open_Closed_Principle.BadSample;
+using Design_Principles.Open_Closed_Principle.GoodSample;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,8 @@ namespace Design_Principles.Open_Closed_Principle
 		public static void Run()
 		{
 			GraphicEditorBadSample.Run();
+
+			GraphicEditorGoodSample.Run();
 		}
 	}
 }

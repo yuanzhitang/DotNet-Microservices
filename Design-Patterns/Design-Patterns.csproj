@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Creational\" />
+    <Folder Include="Creational\AbstractFactory\Sample\" />
   </ItemGroup>
 
 </Project>

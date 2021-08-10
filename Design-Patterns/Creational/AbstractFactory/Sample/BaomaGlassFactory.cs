@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Design_Patterns.Creational.AbstractFactory.Structuralcode
+namespace Design_Patterns.Creational.AbstractFactory.Sample
 {
-	public class ChanganGlassFactory : IGlass
+	public class BaomaGlassFactory : IGlass
 	{
 		public Glass CreateGlass()
 		{
-			return new ChanganGlass();
+			return new BaomaGlass();
 		}
 	}
 }

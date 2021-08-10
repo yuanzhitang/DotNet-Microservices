@@ -2,7 +2,7 @@
 using Design_Patterns.Behavioral.TemplateMethod;
 using Design_Patterns.Behavioral.Visitor;
 using Design_Patterns.Creational.AbstractFactory;
-using Design_Patterns.Creational.AbstractFactory.Structuralcode;
+using Design_Patterns.Creational.AbstractFactory.Sample;
 using Design_Patterns.Creational.FactoryMethod;
 using Design_Patterns.Creational.SimpleFactory;
 using Design_Patterns.Structural.Adapter;

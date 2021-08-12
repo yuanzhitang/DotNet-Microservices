@@ -4,6 +4,7 @@ using Design_Patterns.Behavioral.Visitor;
 using Design_Patterns.Creational.AbstractFactory;
 using Design_Patterns.Creational.AbstractFactory.Sample;
 using Design_Patterns.Creational.FactoryMethod;
+using Design_Patterns.Creational.Prototype;
 using Design_Patterns.Creational.SimpleFactory;
 using Design_Patterns.Structural.Adapter;
 using Design_Patterns.Structural.Decorator;
@@ -17,32 +18,32 @@ namespace Design_Patterns
 		{
 			Console.WriteLine("Hello Design-Patterns!");
 
-			//var observerDemo = new ObserverDemo();
-			//observerDemo.Run();
+			var observerDemo = new ObserverDemo();
+			observerDemo.Run();
 
-			//var templatedMethodDemo = new TemplateMethodDemo();
-			//templatedMethodDemo.Run();
+			var templatedMethodDemo = new TemplateMethodDemo();
+			templatedMethodDemo.Run();
 
-			//var decoratorDemo = new DecoratorDemo();
-			//decoratorDemo.Run();
+			var decoratorDemo = new DecoratorDemo();
+			decoratorDemo.Run();
 
-			//#region Visitor Structural Demo and Real World Demo
+			#region Visitor Structural Demo and Real World Demo
 
-			//var visitorStructuralDemo = new VisitorStructuralDemo();
-			//visitorStructuralDemo.Run();
+			var visitorStructuralDemo = new VisitorStructuralDemo();
+			visitorStructuralDemo.Run();
 
-			//var visitorRealWorldDemo = new VisitorRealWordDemo();
-			//visitorRealWorldDemo.Run();
+			var visitorRealWorldDemo = new VisitorRealWordDemo();
+			visitorRealWorldDemo.Run();
 
-			//#endregion Visitor Structural Demo and Real Word Demo
+			#endregion Visitor Structural Demo and Real Word Demo
 
-			//#region Adapter
-			//var adapterStructuralDemo = new AdapterStructuralDemo();
-			//adapterStructuralDemo.Run();
+			#region Adapter
+			var adapterStructuralDemo = new AdapterStructuralDemo();
+			adapterStructuralDemo.Run();
 
-			//var adapterRealWorldDemo = new AdapterRealWordDemo();
-			//adapterRealWorldDemo.Run();
-			//#endregion Adapter
+			var adapterRealWorldDemo = new AdapterRealWordDemo();
+			adapterRealWorldDemo.Run();
+			#endregion Adapter
 
 			#region Factory
 
@@ -56,6 +57,12 @@ namespace Design_Patterns
 			AbstractFactoryDemo abstractFactoryDemo = new AbstractFactoryDemo(changanCarFactory);
 			abstractFactoryDemo.Run();
 
+			#endregion
+
+			#region Prototype
+
+			PrototypeDemo prototypeDemo = new PrototypeDemo();
+			prototypeDemo.Run();
 
 			#endregion
 

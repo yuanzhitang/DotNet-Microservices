@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Design_Patterns.Creational.AbstractFactory.Structuralcode
+namespace Design_Patterns.Creational.AbstractFactory.Sample
 {
 	public class BaomaCarFactory:CarFactory
 	{

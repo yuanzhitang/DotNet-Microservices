@@ -1,4 +1,4 @@
-﻿using Design_Patterns.Creational.AbstractFactory.Structuralcode;
+﻿using Design_Patterns.Creational.AbstractFactory.Sample;
 using System;
 using System.Collections.Generic;
 using System.Linq;

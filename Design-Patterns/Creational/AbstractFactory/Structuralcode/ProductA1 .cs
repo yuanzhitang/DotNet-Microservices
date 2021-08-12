@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Design_Patterns.Creational.AbstractFactory.Structuralcode
 {
-	public class BaomaGlass :Glass
-	{
-	}
+    class ProductA1 : AbstractProductA
+    {
+    }
 }

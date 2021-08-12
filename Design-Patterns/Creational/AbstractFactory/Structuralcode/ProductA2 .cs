@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace Design_Patterns.Creational.AbstractFactory.Structuralcode
 {
-	public abstract class CarFactory
-	{
-		public abstract Glass CreateGlass();
-
-		//XXX//
-
-		public abstract Wheel CreateWheel();
-	}
+    class ProductA2 : AbstractProductA
+    {
+    }
 }

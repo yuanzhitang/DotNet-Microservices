@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Design_Patterns.Creational.AbstractFactory.Structuralcode
+namespace Design_Patterns.Creational.AbstractFactory.Sample
 {
-	public interface IGlass
+	public abstract class Glass
 	{
-		Glass CreateGlass();
 	}
 }

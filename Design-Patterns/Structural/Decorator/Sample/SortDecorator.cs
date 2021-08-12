@@ -21,7 +21,7 @@ namespace Design_Patterns.Structural.Decorator.Sample
 
 		private void ReportSort()
 		{
-			Console.WriteLine("我的名次: 35");
+			Console.WriteLine("My Ranking: 35");
 		}
 	}
 }

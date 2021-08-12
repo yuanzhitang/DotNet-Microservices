@@ -21,7 +21,7 @@ namespace Design_Patterns.Structural.Decorator.Sample
 
 		private void ReportHighScore()
 		{
-			Console.WriteLine("各科最高分：语文：75， 数学：78， 英语：80");
+			Console.WriteLine("Highest Score：Chinese：75， Mathematics：78， English：80");
 		}
 	}
 }

@@ -10,7 +10,7 @@ namespace Design_Patterns.Structural.Decorator.Sample
 	{
 		public override void Report()
 		{
-			Console.WriteLine("语文：62， 数学： 65， 英语：63");
+			Console.WriteLine("Chinese：62， Mathematics： 65， English：63");
 		}
 
 		public override void Sign(string name)

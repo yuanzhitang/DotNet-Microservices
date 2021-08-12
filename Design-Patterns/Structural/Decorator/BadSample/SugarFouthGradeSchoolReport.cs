@@ -10,18 +10,18 @@ namespace Design_Patterns.Structural.Decorator.Sample
 	{
 		private void ReportHighScore()
 		{
-			Console.WriteLine("各科最高分：语文：75， 数学：78， 英语：80");
+			Console.WriteLine("Highest Score：Chinese：75， Mathematics：78， English：80");
 		}
 
 		private void ReportSort()
 		{
-			Console.WriteLine("我的名次: 35");
+			Console.WriteLine("My Ranking: 35");
 		}
 
 		public override void Report()
 		{
 			ReportHighScore();
-			Console.WriteLine("语文：62， 数学： 65， 英语：63");
+			Console.WriteLine("Chinese：62， Mathematics： 65， English：63");
 			ReportSort();
 		}
 

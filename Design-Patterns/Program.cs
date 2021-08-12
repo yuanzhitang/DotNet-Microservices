@@ -59,6 +59,13 @@ namespace Design_Patterns
 
 			#endregion
 
+			#region Decorator
+
+			DecoratorDemo decoratorDemo = new DecoratorDemo();
+			decoratorDemo.Run();
+
+			#endregion
+
 			Console.ReadLine();
 		}
 	}

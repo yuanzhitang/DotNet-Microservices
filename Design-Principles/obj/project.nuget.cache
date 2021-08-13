@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DglKkGpi3U9VfUmL9rYCzy/paBCUKvnrg4Hp3ffOyMP0IrWTewBl5cl39ku8KktIM0RJ4vlXAZsgEQ3Qc/qW0Q==",
+  "dgSpecHash": "SaYyo8sFm14RZFRELeQhGGG5wpDgWw5iJ5LKmDkcgkPj1Zec8bKm5DwJJfKm8soGIUgBbcAl8v6RBmruHqaq/A==",
   "success": true,
-  "projectFilePath": "C:\\MichaelCoding\\DotNet-Microservices\\Design-Principles\\Design-Principles.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\TangYM\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.5\\microsoft.netcore.app.host.win-x64.5.0.5.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Work\\DesignPattern\\DotNet-Microservices\\Design-Principles\\Design-Principles.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

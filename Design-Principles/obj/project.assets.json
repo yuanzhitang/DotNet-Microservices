@@ -8,28 +8,25 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\TangYM\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\chengsha\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MichaelCoding\\DotNet-Microservices\\Design-Principles\\Design-Principles.csproj",
+      "projectUniqueName": "C:\\Work\\DesignPattern\\DotNet-Microservices\\Design-Principles\\Design-Principles.csproj",
       "projectName": "Design-Principles",
-      "projectPath": "C:\\MichaelCoding\\DotNet-Microservices\\Design-Principles\\Design-Principles.csproj",
-      "packagesPath": "C:\\Users\\TangYM\\.nuget\\packages\\",
-      "outputPath": "C:\\MichaelCoding\\DotNet-Microservices\\Design-Principles\\obj\\",
+      "projectPath": "C:\\Work\\DesignPattern\\DotNet-Microservices\\Design-Principles\\Design-Principles.csproj",
+      "packagesPath": "C:\\Users\\chengsha\\.nuget\\packages\\",
+      "outputPath": "C:\\Work\\DesignPattern\\DotNet-Microservices\\Design-Principles\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\TangYM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\chengsha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -63,18 +60,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.5, 5.0.5]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

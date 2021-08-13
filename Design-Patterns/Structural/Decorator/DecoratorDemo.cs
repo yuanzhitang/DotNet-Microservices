@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Design_Patterns.Structural.Decorator.Sample;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -32,6 +33,14 @@ namespace Design_Patterns.Structural.Decorator
 			decoratorB.SetComponent(decoratorA);
 
 			decoratorB.Operation();
+
+			//Sample
+			SchoolReport report = new FouthGradeSchoolReport();
+
+			report = new HighScoreDecorator(report);
+			report = new SortDecorator(report);
+
+			report.Report();
 		}
 	}
 }

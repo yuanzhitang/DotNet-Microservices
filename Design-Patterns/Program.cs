@@ -1,6 +1,11 @@
 ﻿using Design_Patterns.Behavioral.Observer;
 using Design_Patterns.Behavioral.TemplateMethod;
 using Design_Patterns.Behavioral.Visitor;
+using Design_Patterns.Creational.AbstractFactory;
+using Design_Patterns.Creational.AbstractFactory.Sample;
+using Design_Patterns.Creational.FactoryMethod;
+using Design_Patterns.Creational.Prototype;
+using Design_Patterns.Creational.SimpleFactory;
 using Design_Patterns.Structural.Adapter;
 using Design_Patterns.Structural.Decorator;
 using System;
@@ -39,6 +44,34 @@ namespace Design_Patterns
 			var adapterRealWorldDemo = new AdapterRealWordDemo();
 			adapterRealWorldDemo.Run();
 			#endregion Adapter
+
+			#region Factory
+
+			SimpleFactoryDemo simpleFactoryDemo = new SimpleFactoryDemo();
+			simpleFactoryDemo.Run();
+
+			FactoryMethodDemo factoryMethodDemo = new FactoryMethodDemo();
+			factoryMethodDemo.Run();
+
+			ChanganCarFactory changanCarFactory = new ChanganCarFactory();
+			AbstractFactoryDemo abstractFactoryDemo = new AbstractFactoryDemo(changanCarFactory);
+			abstractFactoryDemo.Run();
+
+			#endregion
+
+			#region Prototype
+
+			PrototypeDemo prototypeDemo = new PrototypeDemo();
+			prototypeDemo.Run();
+
+			#endregion
+
+			#region Decorator
+
+			DecoratorDemo decoratorDemo = new DecoratorDemo();
+			decoratorDemo.Run();
+
+			#endregion
 
 			Console.ReadLine();
 		}

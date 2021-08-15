@@ -7,11 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-<<<<<<< HEAD
-    <Folder Include="Creational\NewFolder\" />
-=======
     <Folder Include="Creational\AbstractFactory\Sample\" />
->>>>>>> 37dd9caf15f592bfbaca45e7de971bd20002ee0e
   </ItemGroup>
 
 </Project>

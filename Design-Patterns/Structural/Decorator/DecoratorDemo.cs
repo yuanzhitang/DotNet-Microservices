@@ -37,8 +37,8 @@ namespace Design_Patterns.Structural.Decorator
 			//Sample
 			SchoolReport report = new FouthGradeSchoolReport();
 
-			report = new HighScoreDecorator(report);
-			report = new SortDecorator(report);
+			report = new HighestScoreDecorator(report);
+			report = new RankDecorator(report);
 
 			report.Report();
 		}

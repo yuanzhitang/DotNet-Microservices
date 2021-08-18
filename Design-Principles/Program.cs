@@ -6,7 +6,7 @@ namespace Design_Principles
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello World!");
+			Console.WriteLine("Hello Design-Principles!");
 		}
 	}
 }

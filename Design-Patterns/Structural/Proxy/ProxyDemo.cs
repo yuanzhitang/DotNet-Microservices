@@ -1,4 +1,5 @@
-﻿using Design_Patterns.Structural.ProxyPattern.Structural_code;
+﻿using Design_Patterns.Structural.ProxyPattern.Sample;
+using Design_Patterns.Structural.ProxyPattern.Structural_code;
 using System;
 
 namespace Design_Patterns.Structural.ProxyPattern
@@ -40,7 +41,7 @@ namespace Design_Patterns.Structural.ProxyPattern
 			Proxy proxy = new Proxy(realSubject);
 			client.ClientCode(proxy);
 
-            /***********************Output*******************************
+			/***********************Output*******************************
 				Client: Executing the client code with a real subject:
 				RealSubject: Handling Request.
 
@@ -50,7 +51,20 @@ namespace Design_Patterns.Structural.ProxyPattern
 				Proxy: Logging the time of request.
 			**************************************************************/
 
-            #endregion
-        }
+			#endregion
+
+			#region Sample
+
+			var tvService = new TencentVideoService();
+
+			var tvProxy = new CachedVideoService(tvService);
+
+			var manager = new VideoManager(tvProxy);
+
+			long videoId = 10; //Get From User's input
+			manager.ReactOnUserInput(videoId);
+
+			#endregion
+		}
     }
 }

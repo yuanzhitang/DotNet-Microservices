@@ -1,4 +1,5 @@
 ﻿using Design_Patterns.Structural.ProxyPattern.Structural_code;
+using System;
 
 namespace Design_Patterns.Structural.ProxyPattern
 {
@@ -25,9 +26,31 @@ namespace Design_Patterns.Structural.ProxyPattern
 
 		protected override void RunImpl()
 		{
-			/* Structural code */
-			Proxy proxy = new Proxy();
-			proxy.Request();
-		}
-	}
+			#region Structural code
+
+            Client client = new Client();
+
+			Console.WriteLine("Client: Executing the client code with a real subject:");
+			RealSubject realSubject = new RealSubject();
+			client.ClientCode(realSubject);
+
+			Console.WriteLine();
+
+			Console.WriteLine("Client: Executing the same client code with a proxy:");
+			Proxy proxy = new Proxy(realSubject);
+			client.ClientCode(proxy);
+
+            /***********************Output*******************************
+				Client: Executing the client code with a real subject:
+				RealSubject: Handling Request.
+
+				Client: Executing the same client code with a proxy:
+				Proxy: Checking access prior to firing a real request.
+				RealSubject: Handling Request.
+				Proxy: Logging the time of request.
+			**************************************************************/
+
+            #endregion
+        }
+    }
 }

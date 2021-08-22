@@ -1,4 +1,5 @@
 ﻿
+using Design_Patterns.Structural.FacadePattern.Sample1;
 using Design_Patterns.Structural.FacadePattern.Structural_code;
 
 namespace Design_Patterns.Structural.FacadePattern
@@ -49,8 +50,22 @@ namespace Design_Patterns.Structural.FacadePattern
 
 			#endregion
 
-			#region Sample
+			#region Sample1
 
+			/*
+			 *  In order to place an order first we need to create an object of Product class and get the product details by calling the GetProductDetails. 
+			 *  Then if everything is fine then we need to make the Payment and in order to do this, 
+			 *  we need to create an instance of the Payment class and call the MakePayment method. 
+			 *  If Payment is successful then we need to send the Invoice to the customer and to do so, 
+			 *  we need to create an instance of the Invoice class and call the SendInvoice method. 
+			 *  So, in order to place the order, we need to do the above mention steps.
+			 *  The Façade Design Pattern in C# is actually an extra class that sits at the top of the above classes. 
+			 *  
+			 *  Order is the Façade class which will take the responsibility of placing the order. 
+			 *  This class internally creates the instance of the respective classes and calls the method.
+			 */
+			Order order = new Order();
+			order.PlaceOrder();
 
 			#endregion
 		}

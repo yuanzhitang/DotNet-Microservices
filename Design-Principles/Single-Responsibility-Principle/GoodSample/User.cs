@@ -10,14 +10,10 @@ namespace Design_Principles.Single_Responsibility_Principle.GoodSample
 	{
 		private string name;
 		private string password;
-		private Role role;
-		private Org org;
 
-		public User()
-		{
-			role = new Role();
-			org = new Org();
-		}
+		public List<Role> roles;
+
+		public Org org;
 
 		public string Name
 		{
@@ -29,14 +25,6 @@ namespace Design_Principles.Single_Responsibility_Principle.GoodSample
 		{
 			get { return password; }
 			set { password = value; }
-		}
-
-		public void CreateUser()
-		{
-			name = "test";
-			password = "testpassword";
-			org.addOrg(this,1);
-			role.addRole(this, 1);
 		}
 
 	}

@@ -11,8 +11,12 @@ namespace Design_Principles.Single_Responsibility_Principle.GoodSample
 		public static void Run()
 		{
 			Console.WriteLine("------Good SRP Sample------");
-			User user = new User();
-			user.CreateUser();
+			UserManager userManager = new UserManager();
+			OrgManager orgManager = new OrgManager();
+			RoleManager roleManager = new RoleManager();
+			User user = userManager.CreateUser();
+			user.roles.Add(roleManager.CreateRole());
+			user.org = orgManager.CreateOrg();
 		}
 	}
 }

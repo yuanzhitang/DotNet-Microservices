@@ -24,8 +24,8 @@ namespace Design_Patterns
 			var templatedMethodDemo = new TemplateMethodDemo();
 			templatedMethodDemo.Run();
 
-			var decoratorDemo = new DecoratorDemo();
-			decoratorDemo.Run();
+			//var decoratorDemo = new DecoratorDemo();
+			//decoratorDemo.Run();
 
 			#region Visitor Structural Demo and Real World Demo
 

@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Design_Principles.Single_Responsibility_Principle.GoodSample
 {
-	public class Org
+	public class OrgManager
 	{
-		public int OrgId { get; set; }
+		public Org CreateOrg()
+		{
+			return new Org();
+		}
+
 	}
 }

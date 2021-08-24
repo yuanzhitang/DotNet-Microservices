@@ -8,15 +8,8 @@ namespace Design_Patterns.Creational.Prototype.Structuralcode
 {
 	public abstract class AbstractPrototype
 	{
-		string property;
-		public AbstractPrototype(string property)
+		public AbstractPrototype()
 		{
-			this.property = property;
-		}
-
-		public string Property
-		{
-			get { return property; }
 		}
 
 		public abstract AbstractPrototype Clone();

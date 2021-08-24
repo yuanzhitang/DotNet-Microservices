@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Design_Patterns.Creational.Prototype.Structuralcode
 {
-	public class ConcretePrototype1 :AbstractPrototype
+	public class ConcretePrototype2 : AbstractPrototype
 	{
-		public ConcretePrototype1()
+		public ConcretePrototype2()
 		{
 		}
 

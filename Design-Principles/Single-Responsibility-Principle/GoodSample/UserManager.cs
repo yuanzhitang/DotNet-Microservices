@@ -6,8 +6,14 @@ using System.Threading.Tasks;
 
 namespace Design_Principles.Single_Responsibility_Principle.GoodSample
 {
-	public class Org
+	public class UserManager
 	{
-		public int OrgId { get; set; }
+		public User CreateUser()
+		{
+			User user = new User();
+			user.Name = "test";
+			user.Password = "testpassword";
+			return user;
+		}
 	}
 }

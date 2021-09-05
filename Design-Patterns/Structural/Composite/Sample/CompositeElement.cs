@@ -1,11 +1,7 @@
-﻿/// <copyright>
-/// Copyright Unisys 2021.  All rights reserved.
-/// </copyright>
-
-using System;
+﻿using System;
 using System.Collections.Generic;
 
-namespace Design_Patterns.Structural.Compsite.Sample
+namespace Design_Patterns.Structural.Composite.Sample
 {
 	/// <summary>
 	/// The 'Composite' class

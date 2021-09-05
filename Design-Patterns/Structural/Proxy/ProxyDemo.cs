@@ -29,7 +29,7 @@ namespace Design_Patterns.Structural.ProxyPattern
 		{
 			#region Structural code
 
-            Client client = new Client();
+			Client client = new Client();
 
 			Console.WriteLine("Client: Executing the client code with a real subject:");
 			RealSubject realSubject = new RealSubject();
@@ -66,5 +66,5 @@ namespace Design_Patterns.Structural.ProxyPattern
 
 			#endregion
 		}
-    }
+	}
 }

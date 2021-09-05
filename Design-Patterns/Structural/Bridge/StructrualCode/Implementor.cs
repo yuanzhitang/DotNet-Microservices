@@ -9,7 +9,7 @@ namespace Design_Patterns.Structural.Bridge.StructrualCode
 	/// The 'Implementor' abstract class
 	/// </summary>
 	public abstract class Implementor
-    {
-        public abstract void Operation();
-    }
+	{
+		public abstract void Operation();
+	}
 }

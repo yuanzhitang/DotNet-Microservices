@@ -1,8 +1,4 @@
-﻿/// <copyright>
-/// Copyright Unisys 2021.  All rights reserved.
-/// </copyright>
-
-using System;
+﻿using System;
 
 namespace Design_Patterns.Structural.Flyweight.StructuralCode
 {

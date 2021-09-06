@@ -1,16 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Design_Patterns.Structural.Decorator.Sample
 {
-	class HighScoreDecorator:SchoolReportDecorator
+	class HighestScoreDecorator : SchoolReportDecorator
 	{
-		public HighScoreDecorator(SchoolReport report):base(report)
+		public HighestScoreDecorator(SchoolReport report) : base(report)
 		{
-	
+
 		}
 
 		public override void Report()

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Design_Patterns
+namespace Design_Patterns.Creational.Builder.Structuralcode
 {
 	public class Product
 	{

@@ -1,10 +1,6 @@
-﻿/// <copyright>
-/// Copyright Unisys 2021.  All rights reserved.
-/// </copyright>
+﻿using System;
 
-using System;
-
-namespace Design_Patterns.Structural.Compsite.StructrualCode
+namespace Design_Patterns.Structural.Composite.StructrualCode
 {
 	/// <summary>
 	/// The 'Leaf' class

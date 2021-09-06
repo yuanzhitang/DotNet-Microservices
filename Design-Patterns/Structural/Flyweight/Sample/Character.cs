@@ -1,9 +1,4 @@
-﻿/// <copyright>
-/// Copyright Unisys 2021.  All rights reserved.
-/// </copyright>
-
-
-namespace Design_Patterns.Structural.Flyweight.Sample
+﻿namespace Design_Patterns.Structural.Flyweight.Sample
 {
 	/// <summary>
 	/// The 'Flyweight' abstract class

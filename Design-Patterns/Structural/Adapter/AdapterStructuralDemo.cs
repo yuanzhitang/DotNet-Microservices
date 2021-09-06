@@ -1,13 +1,8 @@
 ﻿using Design_Patterns.Structural.Adapter.Structuralcode;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Design_Patterns.Structural.Adapter
 {
-    /*
+	/*
      * Motivation:
      *      The adapter pattern is adapting between classes and objects. Like any adapter in the real world it is used to be an interface, a bridge between two objects. 
      *  In real world we have adapters for power supplies, adapters for camera memory cards, and so on. Probably everyone have seen some adapters for memory cards. 
@@ -28,15 +23,15 @@ namespace Design_Patterns.Structural.Adapter
      *      将一个类的接口转换为客户机期望的另一个接口。
      *      适配器允许类一起工作，否则由于接口不兼容而无法工作。
      */
-    public class AdapterStructuralDemo : PatternDemoBase
-    {
-        public override string PatternName => "Adapter (Structured)";
+	public class AdapterStructuralDemo : PatternDemoBase
+	{
+		public override string PatternName => "Adapter (Structured)";
 
-        protected override void RunImpl()
-        {
-            Target target = new Structuralcode.Adapter();
-            target.Request();
+		protected override void RunImpl()
+		{
+			Target target = new Structuralcode.Adapter();
+			target.Request();
 
-        }
-    }
+		}
+	}
 }

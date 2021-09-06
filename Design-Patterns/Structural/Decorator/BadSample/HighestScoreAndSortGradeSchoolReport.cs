@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Design_Patterns.Structural.Decorator.Sample
 {
-	class SugarFouthGradeSchoolReport : FouthGradeSchoolReport
+	class HighestScoreAndSortGradeSchoolReport : FouthGradeSchoolReport
 	{
-		private void ReportHighScore()
+		private void ReportHighestScore()
 		{
 			Console.WriteLine("Highest Score：Chinese：75， Mathematics：78， English：80");
 		}
@@ -20,7 +16,7 @@ namespace Design_Patterns.Structural.Decorator.Sample
 
 		public override void Report()
 		{
-			ReportHighScore();
+			ReportHighestScore();
 			Console.WriteLine("Chinese：62， Mathematics： 65， English：63");
 			ReportSort();
 		}

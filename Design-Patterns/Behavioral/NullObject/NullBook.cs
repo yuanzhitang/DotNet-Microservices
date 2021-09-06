@@ -1,23 +1,18 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Design_Patterns
 {
-    public class NullBook : Book
-    {
-       
-        public bool isNull()
-        {
-            return true;
-        }
+	public class NullBook : Book
+	{
+		public bool IsNull()
+		{
+			return true;
+		}
 
-        public void show()
-        {
-            Console.WriteLine("Sorry，未找到符合您输入的ID的图书信息，请确认您输入的不是非法值。");
-        }
-    }
+		public void Show()
+		{
+			Console.WriteLine("Sorry，未找到符合您输入的ID的图书信息，请确认您输入的不是非法值。");
+		}
+	}
 }
 

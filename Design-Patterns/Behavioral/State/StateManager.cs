@@ -4,7 +4,7 @@ namespace Design_Patterns
 {
 	public class StateManager
 	{
-        public static void Main(string[] args)
+        public static void Process(string[] args)
         {
             // Open a new account
             Account account = new Account("Jim Johnson");

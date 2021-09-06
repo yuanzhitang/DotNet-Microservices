@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Design_Patterns.Behavioral.TemplateMethod
+namespace Design_Patterns
 {
     public class NullBook : Book
     {
+       
         public bool isNull()
         {
             return true;

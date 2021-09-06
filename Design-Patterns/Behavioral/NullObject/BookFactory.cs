@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Design_Patterns.Behavioral.TemplateMethod;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,10 +16,10 @@ namespace Design_Patterns
             switch (ID)
             {
                 case 1:
-                    book = new Book(ID);
+                    book = new Book();
                     break;
                 case 2:
-                    book = new Book(ID);
+                    book = new Book();
                     break;
                 default:
                    // book = null;
@@ -33,4 +34,4 @@ namespace Design_Patterns
 
 
 
-}
+

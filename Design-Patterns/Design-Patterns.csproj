@@ -7,6 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Creational\Builder\Sample\**" />
+    <Compile Remove="Structural\Facade\Sample2\**" />
+    <EmbeddedResource Remove="Creational\Builder\Sample\**" />
+    <EmbeddedResource Remove="Structural\Facade\Sample2\**" />
+    <None Remove="Creational\Builder\Sample\**" />
+    <None Remove="Structural\Facade\Sample2\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Creational\AbstractFactory\Sample\" />
   </ItemGroup>
 

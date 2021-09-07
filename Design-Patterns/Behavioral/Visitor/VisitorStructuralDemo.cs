@@ -1,13 +1,8 @@
 ﻿using Design_Patterns.Behavioral.Visitor.Structuralcode;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Design_Patterns.Behavioral.Visitor
 {
-    /*
+	/*
      * Motivation:
      *      Collections are data types widely used in object oriented programming. 
      *  Often collections contain objects of different types and in those cases some operations have to be performed on all the collection elements without knowing the type.
@@ -23,22 +18,22 @@ namespace Design_Patterns.Behavioral.Visitor
      *  Visitor lets you define a new operation without changing the classes of the elements on which it operates.
      *  表示要对对象结构的元素执行的操作。Visitor允许您定义一个新的操作，而无需更改它所操作的元素的类。
      */
-    public class VisitorStructuralDemo : PatternDemoBase
-    {
-        public override string PatternName => "Visitor (Structured)";
+	public class VisitorStructuralDemo : PatternDemoBase
+	{
+		public override string PatternName => "Visitor (Structured)";
 
-        protected override void RunImpl()
-        {
-            ObjectStructure o = new ObjectStructure();
-            o.Attach(new ConcreteElementA());
-            o.Attach(new ConcreteElementB());
+		protected override void RunImpl()
+		{
+			ObjectStructure o = new ObjectStructure();
+			o.Attach(new ConcreteElementA());
+			o.Attach(new ConcreteElementB());
 
-            ConcreteVisitor1 v1 = new ConcreteVisitor1();
-            ConcreteVisitor2 v2 = new ConcreteVisitor2();
+			ConcreteVisitor1 v1 = new ConcreteVisitor1();
+			ConcreteVisitor2 v2 = new ConcreteVisitor2();
 
-            o.Accept(v1);
-            o.Accept(v2);
+			o.Accept(v1);
+			o.Accept(v2);
 
-        }
-    }
+		}
+	}
 }

@@ -10,10 +10,10 @@ namespace Design_Patterns.Structural.Bridge.StructrualCode
 	/// The 'ConcreteImplementorB' class
 	/// </summary>
 	public class ConcreteImplementorB : Implementor
-    {
-        public override void Operation()
-        {
-            Console.WriteLine("ConcreteImplementorB Operation");
-        }
-    }
+	{
+		public override void Operation()
+		{
+			Console.WriteLine("ConcreteImplementorB Operation");
+		}
+	}
 }

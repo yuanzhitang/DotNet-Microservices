@@ -18,12 +18,19 @@ namespace Design_Patterns
 		{
 			Console.WriteLine("Hello Design-Patterns!");
 
+			#region Observer
+
 			var observerDemo = new ObserverDemo();
 			observerDemo.Run();
+
+			#endregion
+
+			#region TemplateMethod
 
 			var templatedMethodDemo = new TemplateMethodDemo();
 			templatedMethodDemo.Run();
 
+			#endregion
 			//var decoratorDemo = new DecoratorDemo();
 			//decoratorDemo.Run();
 

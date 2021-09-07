@@ -4,16 +4,11 @@
 
 using Design_Patterns.Structural.Bridge.Sample;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Design_Patterns.Structural.Bridge
 {
 	public class BrigdeDemo : PatternDemoBase
 	{
-	
 		public override string PatternName => "Brigde Pattern";
 
 		protected override void RunImpl()

@@ -1,7 +1,11 @@
 ﻿namespace Design_Patterns
 {
-	public class Book
+	public class Book : IBook
 	{
+		public Book(int ID)
+		{
+
+		}
 		public void Show()
 		{
 

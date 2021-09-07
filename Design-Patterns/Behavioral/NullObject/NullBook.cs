@@ -2,8 +2,9 @@
 
 namespace Design_Patterns
 {
-	public class NullBook : Book
+	public class NullBook : IBook
 	{
+		public NullBook(int id) { }
 		public bool IsNull()
 		{
 			return true;

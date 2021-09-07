@@ -2,20 +2,20 @@
 {
 	public class BookFactory
 	{
-		public Book QueryBook(int id)
+		public IBook QueryBook(int id)
 		{
-			Book book;
+			IBook book;
 			switch (id)
 			{
 				case 1:
-					book = new Book();
+					book = new Book(id);
 					break;
 				case 2:
-					book = new Book();
+					book = new Book(id);
 					break;
 				default:
 					// book = null;
-					book = new NullBook();//创建一个NullBook对象
+					book = new NullBook(id);//创建一个NullBook对象
 					break;
 			}
 

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Design_Patterns.Behavioral.Memento.StucturalCode
+namespace Design_Patterns.Behavioral.Memento.StructuralCode
 {
 	public class Originator
 	{

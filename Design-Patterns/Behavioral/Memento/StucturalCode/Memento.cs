@@ -1,5 +1,5 @@
 ﻿
-namespace Design_Patterns.Behavioral.Memento.StucturalCode
+namespace Design_Patterns.Behavioral.Memento.StructuralCode
 {
 	/// <summary>
 	/// The 'Memento' class

@@ -1,4 +1,5 @@
-﻿using Design_Patterns.Behavioral.Observer;
+﻿using Design_Patterns.Behavioral.Command;
+using Design_Patterns.Behavioral.Observer;
 using Design_Patterns.Behavioral.TemplateMethod;
 using Design_Patterns.Behavioral.Visitor;
 using Design_Patterns.Creational.AbstractFactory;
@@ -77,6 +78,14 @@ namespace Design_Patterns
 
 			DecoratorDemo decoratorDemo = new DecoratorDemo();
 			decoratorDemo.Run();
+
+			#endregion
+
+
+			#region Command
+
+			CommandDemo commandDemo = new CommandDemo();
+			commandDemo.Run();
 
 			#endregion
 

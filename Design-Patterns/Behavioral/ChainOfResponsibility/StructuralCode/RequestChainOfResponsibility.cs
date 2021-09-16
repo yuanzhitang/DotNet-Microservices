@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Design_Patterns.Behavioral.ChainOfResponsibility.StucturalCode
+namespace Design_Patterns.Behavioral.ChainOfResponsibility.StructuralCode
 {
 	public class RequestChainOfResponsibility
     {

@@ -1,5 +1,6 @@
 ﻿using Design_Patterns.Behavioral.Command;
 using Design_Patterns.Behavioral.Observer;
+using Design_Patterns.Behavioral.Strategy;
 using Design_Patterns.Behavioral.TemplateMethod;
 using Design_Patterns.Behavioral.Visitor;
 using Design_Patterns.Creational.AbstractFactory;
@@ -81,6 +82,10 @@ namespace Design_Patterns
 
 			#endregion
 
+			#region Strategy
+			var strategyDemo = new StrategyPatternDemo();
+			strategyDemo.Run();
+			#endregion Strategy
 
 			#region Command
 
